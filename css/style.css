@@ -1,0 +1,555 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    height: 70px;
+    background-color: #eae5dc;
+    padding:10px 0px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content .company{
+    text-decoration: none;
+    font-size: 32px;
+    color: #7f9396;
+    padding-bottom: 20px;
+}
+.header-content #links a{
+    margin-right: 15px;
+    padding-bottom: 20px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    color: #7f9396;
+    font-size: 17px;
+}
+/* ////////////////////////////////////////////////////////////// */
+.section-form{
+    margin-top:60px ;
+    background-image: url(../images/Grey\ and\ Blue\ Illustrative\ Modern\ Insurance\ Service\ Linkedin\ Single\ Image\ Ad.png);
+    position: absolute;
+    width: 90%;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    margin-top: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+.login-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(100, 92, 92, 0.5)
+}
+.section-form h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 35px;
+    text-align: center;
+    padding-top: 10px;
+}
+.section-form form input{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    height: 30px;
+    border: 1px solid rgb(234, 229, 220);
+    border-radius: 2px;
+    padding: 5px;
+    outline: none;
+}
+#sign-in{
+    background-color: #f5f4eb;
+    font-size: 15px;
+    cursor: pointer;
+}
+.section-form form a{
+    text-decoration: none;
+    color: rgb(17, 50, 128);
+    word-spacing: 5px;
+}
+#sign_up{
+    background-color: #f5f4eb;
+    font-size: 15px;
+    cursor: pointer;
+}
+#sign_up a{
+    font-size: 20px;
+}
+/* ///////////////////////////////////////////////////////////// */
+#em-info li a{
+    margin-right: 20px;
+    padding-bottom: 25px;
+    display: block;
+}
+/* //////////////////////////////////////////////////////////// */
+.home{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    /* visibility: hidden; */
+}
+.sec1{
+    width: 430px;
+    height: 320px;
+    background-image: url(../images/Home.png);
+    background-size: cover;
+    border-radius: 7px;
+    opacity: 0.8;
+    position: relative;
+    float: left;
+    margin-right: 150px;
+}
+.sec1-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    visibility: hidden;
+}
+.sec1:hover .sec1-overlay{
+    visibility: visible;
+}
+.sec1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 2s;
+}
+.sec1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.sec1-overlay #explore{
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #7f9396;
+    border: 1.3px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 90px;
+}
+.sec1-overlay #search{
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #7f9396;
+    border: 1.3px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 240px;
+}
+.sec1-content{
+    position: absolute;
+    padding-bottom: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(179, 200, 207,0.7);
+    text-align: center;
+    font-size: 30px;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.sec2{
+    width: 430px;
+    height: 320px;
+    background-image: url(../images/Red\ Minimalist\ Family\ Insurance\ Instagram\ Post.png);
+    background-size: cover;
+    border-radius: 7px;
+    opacity: 0.8;
+    position: relative;
+    float: left;
+}
+.sec2-content{
+    position: absolute;
+    padding-bottom: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(179, 200, 207,0.7);
+    text-align: center;
+    font-size: 30px;
+}
+.sec2-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    visibility: hidden;
+}
+.sec2:hover .sec2-overlay{
+    visibility: visible;
+}
+.sec2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 2s;
+}
+.sec2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.sec2-overlay #exploreL{
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #7f9396;
+    border: 1.3px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 90px;
+}
+.sec2-overlay #search{
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #7f9396;
+    border: 1.3px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 240px;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
+.sec1-2{
+    width: 430px;
+    height: 320px;
+    background-image: url(../images/Blue\ Minimalist\ Premium\ Real\ Estate\ Instagram\ Post.png);
+    background-size: cover;
+    border-radius: 7px;
+    opacity: 0.8;
+    position: relative;
+    float: left;
+    margin-right: 150px;
+}
+.sec1-2-content{
+    position: absolute;
+    padding-bottom: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(179, 200, 207,0.7);
+    text-align: center;
+    font-size: 30px;
+}
+.sec1-2-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    visibility: hidden;
+}
+.sec1-2:hover .sec1-2-overlay{
+    visibility: visible;
+}
+.sec1-2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 2s;
+}
+.sec1-2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.sec1-2-overlay #exploreP{
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #7f9396;
+    border: 1.3px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 90px;
+}
+.sec1-2-overlay #search{
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #7f9396;
+    border: 1.3px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 240px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+.sec2-2{
+    width: 430px;
+    height: 320px;
+    background-image: url(../images/IRDAI\ proposes\ to\ reduce\ sum\ insured\ on\ standard\ health\ indemnity\ insurance\ to\ Rs\ 5\ lakh.jfif);
+    background-size: cover;
+    border-radius: 7px;
+    opacity: 0.8;
+    position: relative;
+    float: left;
+}
+.sec2-2-content{
+    position: absolute;
+    padding-bottom: 50px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(179, 200, 207,0.7);
+    text-align: center;
+    font-size: 30px;
+}
+.sec2-2-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    visibility: hidden;
+}
+.sec2-2:hover .sec2-2-overlay{
+    visibility: visible;
+}
+.sec2-2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 2s;
+}
+.sec2-2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.sec2-2-overlay #exploreH{
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #7f9396;
+    border: 1.3px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 90px;
+}
+.sec2-2-overlay #search{
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    background-color: #7f9396;
+    border: 1.3px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: 140px;
+    margin-left: 240px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+.car-home{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+.car-sec1{
+    width: 300px;
+    height: 150px;
+    border-radius: 7px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid rgb(193, 190, 190);
+    margin-right: 160px;
+    margin-left: 180px;
+    padding-right: 100px;
+}
+.car-sec1 i{
+    font-size: 100px;
+    color: #717a7b;
+}
+.car-sec2{
+    float: left;
+    text-align: center;
+
+}
+.car-sec2 i{
+    font-size: 100px;
+    color: #717a7b;
+}
+/* ////////////////////////////////////////////////////// */
+#apply-form{
+    overflow: auto;
+    margin-top: 20px;
+    visibility: hidden;
+}
+#apply-form .er{
+    margin-bottom: 30px;
+}
+.applyside1{
+    float: left;
+    margin-right: 170px;
+    margin-left: 200px;
+}
+.applyside2{
+    float: left;
+}
+#save .sub{
+    margin-left: 520px;
+    width: 80px;
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    padding: 3px;
+    cursor: pointer;
+}
+#save .sub:hover{
+    background-color: rgb(208, 208, 208);
+}
+#save .re{
+    margin-left: 90px;
+    width: 80px;
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    padding: 3px;
+    cursor: pointer;
+}
+#save .re:hover{
+    background-color: rgb(208, 208, 208);
+}
+/* ////////////////////////////////////////////////////////////// */
+.emSec{
+    width: 90%;
+    margin: auto;
+}
+.emSec i{
+    color:#5c6769;
+    font-size: 100px;
+}
+.emImg{
+    height: 180px;
+    padding-bottom: -100px;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+#employee-n{
+    text-decoration: none;
+    font-size: 60px;
+    color: #6f7b7d;
+    padding-top: -4px;
+}
+/* //////////////////////////////////////////////////////////////// */
+.emData{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+/* ///////////////////////////////////////////////////////////////// */
+.car{
+    visibility: hidden;
+}
+.life{
+    visibility: hidden;
+}
+.health{
+    visibility: hidden;
+}
+.property{
+    visibility: hidden;
+}
+/* //////////////////////////////////////////////////////////////// */
+.footer{
+    width: 100%;
+    height: 170px;
+    background-color: rgba(80, 91, 92, 0.8);
+}
+/* ////////////////////////////////////////////////////////////// */
+.report-img{
+    background-image:  url(../images/Game\ Developer\ Resume\ Website\ in\ Black\ and\ White\ Grey\ Simple\ and\ Minimal\ Style\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 70%;
+    height: 500px;
+    position: relative;
+}
+.report-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(100, 92, 92, 0.5)
+}
+.report-content{
+    position: absolute;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(179, 200, 207,0.7);
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+#report-explore a{
+    text-decoration: none;
+    color: rgb(122, 108, 108);
+}

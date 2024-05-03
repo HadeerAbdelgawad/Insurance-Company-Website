@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance System</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header style="margin-bottom: 50px;">
+            <div class="container">
+                <div class="header-content">
+                    <img src="images/Black Gold Modern Real Estate Logo (1).png" width="70px" height="75px" style="margin-right: -640px; padding-bottom: 20px; padding-top: -20px;">
+                    <a href="index.html" class="company" style="margin-left: 30px;">Insurance</a>
+
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Sign in</a></li>
+                        <li><a href="register.html">Sign up</a></li>
+                    </ul>
+                    <ul id="em-info">
+                        <li>
+                            <i class="fas fa-user-circle" style="color: #6a7f83; float: left; font-size: 24px; margin-right: 5px;"></i>
+                            <a href="#" id="employee" style="color: #6a7f83; font-size: 19px; text-decoration: underline; float: left;"></a>
+                        </li>
+                        <li><a href="login.html" id="logout" style="margin-top: 3px;"><i class="fas fa-sign-out-alt"></i> Log Out</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+    </header>
+
+    <section class="car-home">
+        <div class="car-sec1">
+            <i class="fas fa-address-card"></i>
+            <h2 style="font-size: 30px;">Apply Request</h2>
+        </div>
+
+        <div class="car-sec2">
+            <i class="fas fa-folder-plus"></i>
+            <h2 style="font-size: 30px;">Renew Request</h2>
+        </div>
+   </section>
+
+   <hr>
+<!-- ///////////////////////////////////////////////////////////////////////// -->
+
+<div id="apply-show">
+<form id="apply-form">
+    <div class="applyside1">
+
+        <h3 style="text-decoration: underline;">Personal Information: </h3><br>
+        <div class="er">
+            <label>Document Number: </label><input type="text" style="width: 264px;" placeholder=" Enter Document Numer of Client">
+        </div>
+        <div class="er">
+            <label>Commercial Register: </label><input type="text" style="width: 250px;" placeholder=" Enter Commercial Register of Company">
+        </div>
+        <div class="er">
+            <label>Type of Insurance: </label><input type="text" required style="width: 270px;" placeholder=" Life Insurance" readonly>
+        </div>
+        <div class="er" id="first">
+            <label>First Name: </label>
+            <input autofocus required type="text" placeholder=" Enter first name of Driver" required style="width: 313px;">
+        </div>
+        <div class="er">
+            <label>Last Name: </label>
+            <input required type="text" placeholder="Enter last name of Driver" style="width: 310px;">
+        </div>
+        <div class="er">
+            <label>Age: </label>
+            <input required type="text" placeholder="Enter Age of Driver" style="width: 230px;">
+        </div>
+        <div class="er">
+            <label>Brith Of Date: </label>
+            <input required type="text" placeholder="Enter Brith Of Date of Driver" style="width: 230px;">
+        </div>
+        <div class="er">
+            <label for="Country">Country: </label>
+            <select name="Country" id="Country" style="width: 224px;" id="sortbyco">
+                <option>Alexandria</option>
+                <option>Algharbia</option>
+                <option>Aswan</option>	
+                <option>Asyout</option>
+                <option>Almhala</option>
+                <option>Behera</option>
+                <option>Beni-suef</option>
+                <option>Cairo</option>
+                <option>Domiat</option>
+                <option>Dakahlia</option>
+                <option>Elwadi Elgidid</option>
+                <option>Fayoum</option>
+                <option>Gharbia</option>
+                <option>Giza</option>
+                <option>Ismailia</option>
+                <option>Kalyoubia</option>
+                <option>Kafr Elsheikh</option>
+                <option>Kafr Elzyad</option>
+                <option>Luxor</option>
+                <option>Menoufia</option>
+                <option>Menia</option>
+                <option>Matrouh</option>
+                <option>North Sinai</option>
+                <option>Port-Said</option>
+                <option>Qena</option>
+                <option>Red Sea</option>
+                <option>Ras Elbar</option>
+                <option>Suez</option>
+                <option>Sharkia</option>
+                <option>Suhag</option>
+                <option>South Sinai</option>
+                <option>South Sinai</option>
+            </select>
+            </div>
+        <div class="er">
+            <label>Current address: </label>
+            <input required type="text" placeholder="Enter Current address of Driver" style="width: 230px;">
+        </div>
+        <div class="er">
+            <label>Phone Number: </label>
+            <input type="text" placeholder="Enter your Phone Number" minlength="11" maxlength="11" style="width: 180px;">
+        </div>
+        <div class="er">
+            <label>Gender: </label>
+            <input required type="radio" name="gender">
+            <label>Female</label>
+            <input required type="radio" name="gender">
+            <label>Male</label>
+        </div>
+    </div>
+        <!-- ///////////////////////////////////////////////////// -->
+
+    <div class="applyside2">
+        <h3 style="text-decoration: underline;">Health Status:</h3><br>
+        <div class="er">
+            <label>Current Health Status Of The Insured: </label>
+            <input required type="text" placeholder="Enter Current Health Status" style="width: 220px;">
+        </div>
+        <div class="er">
+            <label>Previous Medical History: </label>
+            <input required type="text" placeholder="Enter Previous Medical History" style="width: 295px;">
+        </div><hr>
+    
+        <!-- //////////////////////////////////////////////////////////// -->
+        
+            <h3 style="text-decoration: underline;">Activities and Occupation: </h3><br>
+            <div class="er">
+                <label>Occupation: </label>
+                <input required type="text" placeholder=" Enter Occupation" style="width: 380px;">
+            </div>
+            <hr>
+    
+            <!-- ///////////////////////////////////////////////////////// -->
+
+            <h3 style="text-decoration: underline;">Insurance Amount Required: </h3><br>
+            <div class="er">
+                <label>Amount Required For Insurance: </label>
+                <input required type="text" placeholder=" Enter Amount Required For Insurance" style="width: 250px;">
+            </div><hr>
+            <!-- /////////////////////////////////////////////////////////// -->
+
+            <h3 style="text-decoration: underline;">Insurance Details: </h3><br>
+            <div class="er">
+                <label>Inspection Representative's Name: </label>
+                <input required type="text" placeholder=" Enter Inspection Representative's Name" style="width: 245px;">
+            </div>
+            <div class="er">
+                <label>Insurance period: </label>
+                <input required type="text" placeholder=" Enter Inspection Representative's Name" style="width: 355px;">
+            </div>
+    
+    </div>
+
+    <div class="save" id="save" style="margin: auto;">
+        <input type="submit" style="font-size: 17px;" class="sub">
+        <input type="reset" style="font-size: 17px;" class="re">
+    </div>
+<br><hr>    
+</form>
+</div>
+<br>
+
+    <script src="js/script.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/request.js"></script>
+</body>
+</html>
