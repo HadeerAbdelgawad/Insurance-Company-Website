@@ -16,7 +16,7 @@ registerBtn.addEventListener("click" , function(e){
         localStorage.setItem("SerialNumber" , serialNum.value)
 
         setTimeout(()=>{
-            window.location = "login.html"
+            window.location = "loginMang.html"
         },1500)
     }}
 })
@@ -36,19 +36,3 @@ function validationName(){
     }
     
 }
-/////////////////////////////////////////////////////////////////////////////////////
-
-let emRegister=document.querySelector("#Employee-Register")
-let manRegister=document.querySelector("#Manager-Register")
-
-emRegister.addEventListener("click",function(){
-    setTimeout(()=>{
-        window.location="register.html"
-    },1000)
-})
-
-manRegister.addEventListener("click",function(){
-    setTimeout(()=>{
-        window.location="registerMang.html"
-    },1000)
-})

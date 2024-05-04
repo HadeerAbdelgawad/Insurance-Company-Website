@@ -553,3 +553,79 @@ nav li a{
     text-decoration: none;
     color: rgb(122, 108, 108);
 }
+/* ////////////////////////////////////////////////////////////// */
+#reportSend{
+    border: 1px solid black;
+    height: 700px;
+    margin-bottom: 10px;
+}
+#reponse{
+    padding-top: 10px;
+    border: 1px solid black;
+    height: 200px;
+    margin-bottom: 10px;
+}
+/* ///////////////////////////////////////////////////////////// */
+/* #manager-info{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+#employeeData{
+    background-image: url(../images/download.jpeg);
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+} */
+#manager-info{
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+#employeeData{
+    float: left;
+    background-image: url(../images/At\ the\ office\ Customizable\ Semi\ Flat\ Illustrations\ _\ Pana\ Style.jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(78, 77, 77);
+    width: 500px;
+    height: 350px;
+    border-radius: 7px;
+    margin-right: 130px;
+    position: relative;
+}
+#employeeReport{
+    float: left;
+    /* background-color: gray; */
+    background-image: url(../images/download\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgb(78, 77, 77);
+    width: 500px;
+    height: 350px;
+    border-radius: 7px;
+    position: relative;
+}
+#employeeData h3{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(179, 200, 207,0.7);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+#employeeReport h3{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(179, 200, 207,0.7);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
