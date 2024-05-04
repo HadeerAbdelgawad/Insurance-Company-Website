@@ -1,6 +1,7 @@
 let links=document.querySelector("#links")
 let emplyeeInfo = document.querySelector("#em-info")
 let employee = document.querySelector("#employee")
+window.open("register.html")
 
 if(localStorage.getItem("UserName")){
     links.remove()
