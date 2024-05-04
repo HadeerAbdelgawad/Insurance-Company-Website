@@ -1,14 +1,19 @@
 let carApply =document.querySelector(".car-sec1")
 let carRenew =document.querySelector(".car-sec2")
 let apply_form=document.querySelector("#apply-form")
+let searchBtn = document.querySelector("#search-btn")
+
 
 carApply.addEventListener("click",function(){
-    apply_form.style.visibility="visible"
+    apply_form.style.display="block"
+    searchBtn.style.display="none"
 })
 
 carRenew.addEventListener("click",function(){
-    apply_form.style.visibility="visible"
+    searchBtn.style.display="block"
+    apply_form.style.display="none"
 })
+
 ///////////////////////////////////////////////////////////////
 
 let submit=document.querySelector(".sub")

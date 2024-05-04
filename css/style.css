@@ -437,11 +437,32 @@ nav li a{
     font-size: 100px;
     color: #717a7b;
 }
+/* ///////////////////////////////////////////////////////////// */
+#search-btn{
+    display: none;
+    margin-left: 400px;
+    margin-top: 130px;
+}
+#search-btn input{
+    width: 200px;
+    height: 26px;
+}
+#search-btn button{
+    padding: 3px;
+    padding: 0px 3px 0px 3px;
+    border: none;
+    background-color: #99a0a1;
+    font-size: 20px;
+    border-radius: 3px;
+}
+#search-btn button:hover{
+    background-color: #bfc2c2;
+}
 /* ////////////////////////////////////////////////////// */
 #apply-form{
     overflow: auto;
     margin-top: 20px;
-    visibility: hidden;
+    display: none;
 }
 #apply-form .er{
     margin-bottom: 30px;
@@ -455,7 +476,7 @@ nav li a{
     float: left;
 }
 #save .sub{
-    margin-left: 520px;
+    margin-left: 630px;
     width: 80px;
     border: 1px solid gainsboro;
     border-radius: 2px;
@@ -463,17 +484,6 @@ nav li a{
     cursor: pointer;
 }
 #save .sub:hover{
-    background-color: rgb(208, 208, 208);
-}
-#save .re{
-    margin-left: 90px;
-    width: 80px;
-    border: 1px solid gainsboro;
-    border-radius: 2px;
-    padding: 3px;
-    cursor: pointer;
-}
-#save .re:hover{
     background-color: rgb(208, 208, 208);
 }
 /* ////////////////////////////////////////////////////////////// */

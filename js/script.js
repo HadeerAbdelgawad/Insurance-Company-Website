@@ -5,10 +5,6 @@ let leftHeaderImg=document.querySelector("#lSide-Img")
 let leftHeaderText=document.querySelector("#lSide-Text")
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b549acd9f2c2237dd44d2b524405b6ee1aec2147
 if(localStorage.getItem("UserName")){
     links.remove()
     emplyeeInfo.style.visibility="visible"
