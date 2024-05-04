@@ -17,13 +17,13 @@ if(localStorage.getItem("UserName")){
     leftSideImage.style.marginRight="10px"
 }
 
-window.onload = function(){
-    localStorage.clear()
-    setTimeout(()=>{
-        window.location="register.html"
-    })
+// window.onload = function(){
+//     localStorage.clear()
+//     setTimeout(()=>{
+//         window.location="register.html"
+//     })
 
-}
+// }
 // window.reload = function(){
 //     localStorage.clear()
 //     setTimeout(()=>{
