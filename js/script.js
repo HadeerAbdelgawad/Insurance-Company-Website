@@ -24,12 +24,12 @@ window.onload = function(){
     })
 
 }
-window.reload = function(){
-    localStorage.clear()
-    setTimeout(()=>{
-        window.location="register.html"
-    })
-}
+// window.reload = function(){
+//     localStorage.clear()
+//     setTimeout(()=>{
+//         window.location="register.html"
+//     })
+// }
 /////////////////////////////////////////////////////////////////
 
 let car_explore=document.querySelector("#explore")
