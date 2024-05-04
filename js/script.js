@@ -1,10 +1,6 @@
 let links=document.querySelector("#links")
 let emplyeeInfo = document.querySelector("#em-info")
 let employee = document.querySelector("#employee")
-// let insurancePage =document.querySelector("#ins-page")
-// let leftSideImage= document.querySelector("#lSide-Img")
-// let leftSideText = document.querySelector("#lSide-Text")
-// let header_content = document.querySelector(".header-content")
 
 if(localStorage.getItem("UserName")){
     links.remove()
