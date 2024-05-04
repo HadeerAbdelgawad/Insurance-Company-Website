@@ -32,7 +32,7 @@ function validationName(){
 
         username.classList.add('is-invalid');
         username.classList.remove('is-valid')
-        alert("UserName Shouldn't have numbers!!")
+        alert("UserName Shouldn't have numbers!!"+"UserName Should Start With Capital Letter"+"UserName ")
     }
     
 }
