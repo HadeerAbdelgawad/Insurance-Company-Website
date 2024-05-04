@@ -2,8 +2,6 @@ let links=document.querySelector("#links")
 let emplyeeInfo = document.querySelector("#em-info")
 let employee = document.querySelector("#employee")
 let insurancePage =document.querySelector("#ins-page")
-// let scrollImg= document.querySelector("#scroll")
-// let footer_home=document.querySelector(".footer-home")
 let leftSideImage= document.querySelector("#lSide-Img")
 let leftSideText = document.querySelector("#lSide-Text")
 let header_content = document.querySelector(".header-content")
@@ -14,8 +12,6 @@ if(localStorage.getItem("UserName")){
     employee.innerHTML = localStorage.getItem("UserName")
     emplyeeInfo.style.display="flex"
     insurancePage.style.display="block"
-    // scrollImg.style.display="none"
-    // footer_home.style.display="none"
     leftSideImage.style.marginTop="-26px"
     leftSideText.style.marginTop="-22px"
     leftSideImage.style.marginRight="10px"
@@ -25,8 +21,14 @@ window.onload = function(){
     localStorage.clear()
     setTimeout(()=>{
         window.location="register.html"
-    },1000)
+    })
 
+}
+window.reload = function(){
+    localStorage.clear()
+    setTimeout(()=>{
+        window.location="register.html"
+    })
 }
 /////////////////////////////////////////////////////////////////
 
