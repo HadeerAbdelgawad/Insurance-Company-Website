@@ -16,7 +16,7 @@ registerBtn.addEventListener("click" , function(e){
         localStorage.setItem("SerialNumber" , serialNum.value)
 
         setTimeout(()=>{
-            window.location = "loginMang.html"
+            window.location = "registerMang.html"
         },1500)
     }}
 })
