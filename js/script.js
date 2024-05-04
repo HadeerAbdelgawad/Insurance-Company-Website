@@ -5,7 +5,6 @@ let leftHeaderImg=document.querySelector("#lSide-Img")
 let leftHeaderText=document.querySelector("#lSide-Text")
 
 
-window.open("register.html",target="_top")
 
 if(localStorage.getItem("UserName")){
     links.remove()
