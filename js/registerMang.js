@@ -4,7 +4,6 @@ let serialNum = document.querySelector("#serial-num")
 
 let registerBtn = document.querySelector("#sign_up")
 
-// window.open("register.html",target="_top")
 registerBtn.addEventListener("click" , function(e){
     e.preventDefault()
     if( username.value==="" || email.value==="" || serialNum.value===""){
@@ -16,7 +15,7 @@ registerBtn.addEventListener("click" , function(e){
         localStorage.setItem("SerialNumber" , serialNum.value)
 
         setTimeout(()=>{
-            window.location = "registerMang.html"
+            window.location = "loginMang.html"
         },1500)
     }}
 })

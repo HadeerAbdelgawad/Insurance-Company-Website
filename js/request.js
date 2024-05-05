@@ -14,6 +14,7 @@ carRenew.addEventListener("click",function(){
     apply_form.style.display="none"
 })
 
+
 ///////////////////////////////////////////////////////////////
 
 let submit=document.querySelector(".sub")
