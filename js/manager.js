@@ -7,3 +7,10 @@ reportExplore.addEventListener("click",function(){
         },1500)
 
 })
+
+///////////////////////////////////////////////////////////////////////
+employee.addEventListener("click",function(){
+    setTimeout(()=>{
+        window.location = "employee.html"
+    },1500)
+})
