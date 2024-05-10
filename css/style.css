@@ -564,40 +564,32 @@ nav li a{
     color: rgb(122, 108, 108);
 }
 /* ////////////////////////////////////////////////////////////// */
-#reportSend{
+.reportSend{
     border: 1px solid black;
     height: 700px;
     margin-bottom: 10px;
 }
-#reponse{
+/* #reponse{
     padding-top: 10px;
     border: 1px solid black;
     height: 200px;
     margin-bottom: 10px;
-}
+} */
 /* ///////////////////////////////////////////////////////////// */
 .sendBtn{
     text-decoration: none;
 }
-.searchBtn button{
-    border: 1px solid gray;
-    padding: 4px;
+.sendBtn button{
+    border: none;
     font-size: 17px;
+    /* padding: 3px; */
+    width: 60px;
+    background-color: #bdbcb8;
+    font-size: 17px;
+    margin-left: 925px;
+    bottom: 0;
 }
 /* ///////////////////////////////////////////////////////////// */
-/* #manager-info{
-    width: 80%;
-    margin: auto;
-    margin-top: 30px;
-}
-#employeeData{
-    background-image: url(../images/download.jpeg);
-    width: 300px;
-    height: 300px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 7px;
-} */
 #manager-info{
     overflow: auto;
     width: 90%;
@@ -710,4 +702,133 @@ nav li a{
 .sp2{
     color: red;
     cursor: pointer;
+}
+/* /////////////////////////////////////////////////////////////////////// */
+.listItem{
+    float: left;
+    background-image: url(../images/White\ Professional\ Customer\ Satisfaction\ Survey\ Form.png);
+    background-size: cover;    
+    height: 100vh;
+    width: 350px;
+    border-radius: 3px;
+}
+.openBtn{
+    margin-top: 15px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head-cato{
+    background-color: #909b9b !important;
+    width: 450px;
+    padding-left: 5px;
+    border-radius: 2px;
+    border-bottom: 1px solid #828787;
+}
+.cato-body{
+    background-color: #dbd9d9;
+}
+.comIcon{
+    margin-left: 190px;
+    color: #596464;
+    font-size: 20px;
+}
+.resIcon{
+    margin-left: 203px;
+    color: #596464;
+    font-size: 20px;
+}
+.complaint-body{
+    float: left;
+    width: 900px;
+    height: 100vh;
+    padding-left: 5px;
+}
+.reponse-body{
+    float: left;
+    width: 900px;
+    height: 100vh;
+    padding-left: 5px;
+}
+.person-icon{
+    font-size: 28px;
+    color: #5c6769;
+    margin-right: 10px;
+}
+/* ///////////////////////////////////////////////////////////// */
+.complaintBox{
+    float: left;
+    height: 100vh;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.complaint-p{
+    border: 1px solid #7f9396;
+    height: 585px;
+    width: 900px;
+    padding-bottom: 10px;
+    padding: 15px;
+}
+.send-complaint{
+    border: none;
+    width: 80px;
+    height: 25px;
+    background-color: #bdbcb8;
+    padding-bottom: 8px;
+    border-radius: 2px;
+    margin-left: 780px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(199, 198, 198);
+}
+.send-complaint:hover{
+    background-color: #a1a09b;
+}
+.responseBox{
+    float: left;
+    height: 100vh;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.response-p{
+    border: 1px solid #7f9396;
+    height: 585px;
+    width: 900px;
+    padding-bottom: 10px;
+    padding: 15px;
+}
+.deny-response{
+    float: left;
+    border: none;
+    width: 80px;
+    height: 25px;
+    background-color: #bdbcb8;
+    padding-bottom: 8px;
+    border-radius: 2px;
+    margin-left: 780px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(199, 198, 198);
+}
+.deny-response:hover{
+    background-color: #a1a09b;
+}
+.accept-response{
+    margin-top: -25px;
+    float: left;
+    border: none;
+    width: 80px;
+    height: 25px;
+    background-color: #bdbcb8;
+    padding-bottom: 8px;
+    border-radius: 2px;
+    margin-left: 670px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(199, 198, 198);
+}
+.accept-response:hover{
+    background-color: #a1a09b;
 }

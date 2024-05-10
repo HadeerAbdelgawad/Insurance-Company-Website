@@ -14,3 +14,5 @@ employee.addEventListener("click",function(){
         window.location = "employee.html"
     },1500)
 })
+
+
