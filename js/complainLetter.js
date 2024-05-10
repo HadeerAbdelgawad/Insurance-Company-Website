@@ -65,6 +65,7 @@ row10Against.addEventListener("click",function(){
 
 complaintBtn.addEventListener("click",function(){
         complaintBody.style.display="block"
+        reponse_body.style.display="none"
         
 })
 /////////////////////////////////////////////////////////////////////////////
@@ -74,6 +75,7 @@ let reponse_body= document.querySelector(".reponse-body")
 
 responseBtn.addEventListener("click",function(){
     reponse_body.style.display="block"
+    complaintBody.style.display="none"
 })
 
 /////////////////////////////////////////////////////////////////////////////
